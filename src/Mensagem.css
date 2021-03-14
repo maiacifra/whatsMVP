@@ -1,0 +1,94 @@
+
+.App {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content:flex-start ;
+    justify-self: center;
+    width: 50%;
+    min-width: 400px;
+    height: 100%;
+    box-sizing: border-box;
+    /* padding: 0 0 10px 0 ; */
+    /* border: 1px solid gray; */
+    /* background-color: azure; */
+    background-color: aquamarine;
+
+
+}
+
+.msg-container{
+    box-sizing: border-box;
+    flex-grow: 120;
+    /* border: 1px solid gray; */
+    /* width: 50%; */
+    margin-bottom: 10px;
+    text-align: left;
+    /* display: flex; */
+    padding: 7px  0 10px 0;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+}
+
+.msg-baloon {
+    border: 1px solid gray;
+    width: 300px;
+    margin-bottom: 10px;
+    /* padding: 7px  10px 10px 10px; */
+
+
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 2px 4px black;
+
+}
+
+.form-container{
+    flex-grow: 1;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* margin: 0 0 100px 0; */
+    /* background-color:antiquewhite; */
+    height: 50px;
+}
+
+
+.form-container > .a {
+    flex-grow: 1;
+    width: 100px;
+}
+
+.form-container > .b {
+    flex-grow: 12;
+    /* margin-right: 5px; */
+}
+
+input {
+    border-radius: 3px;
+    padding: 5px 0;
+    padding-left: 10px;
+    border: none;
+    background-color: white;
+    margin-right: 5px;
+
+}
+
+button {
+    border-radius: 3px;
+    padding: 5px 5px;
+    /* padding-left: 15px; */
+    border: none;
+    background-color: white;
+}
